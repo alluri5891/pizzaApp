@@ -1,0 +1,213 @@
+[
+  {
+    "id": "Crust",
+    "label": "Crust",
+    "field": "crust",
+    "type": "select",
+    "options": [
+      {
+        "type": "text",
+        "value": "Original",
+        "label": "Original"
+      },
+      {
+        "type": "text",
+        "value": "Gluten-free",
+        "label": "Gluten-free"
+      }
+    ]
+  },
+  {
+    "id": "Sauce",
+    "field": "sauce",
+    "label": "Sauce",
+    "type": "select",
+    "options": [
+      {
+        "type": "text",
+        "label": "Red sauce",
+        "value": "redSauce"
+      },
+      {
+        "type": "text",
+        "label": "White sauce",
+        "value": "whiteSauce"
+      },
+      {
+        "type": "text",
+        "label": "Green pesto",
+        "value": "greenPesto"
+      }
+    ],
+    "optionalFields": [
+      {
+        "if": "whiteSauce",
+        "type": "radio",
+        "field": "whiteSauce",
+        "label": "Milk",
+        "options": [
+          {
+            "type": "text",
+            "value": "dairy",
+            "label": "Dairy"
+          },
+          {
+            "type": "text",
+            "label": "Dairy-free",
+            "value": "dairy-free"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Cheese",
+    "label": "Cheese",
+    "field": "cheese",
+    "type": "select",
+    "options": [
+      {
+        "type": "text",
+        "value": "Mozzarella",
+        "label": "Mozzarella"
+      },
+      {
+        "type": "text",
+        "value": "Dairy-free-cheese",
+        "label": "Dairy-free cheese"
+      },
+      {
+        "type": "text",
+        "value": "Gorgonzola",
+        "label": "Gorgonzola"
+      },
+      {
+        "type": "text",
+        "value": "Parmesan",
+        "label": "Parmesan"
+      }
+    ]
+  },
+  {
+    "id": "Protein",
+    "label": "Protein",
+    "field": "protein",
+    "type": "select",
+    "options": [
+      {
+        "type": "text",
+        "value": "Anchovies",
+        "label": "Anchovies"
+      },
+      {
+        "type": "text",
+        "value": "Bacon",
+        "label": "Bacon"
+      },
+      {
+        "type": "text",
+        "value": "Beef",
+        "label": "Beef"
+      },
+      {
+        "type": "text",
+        "value": "Chicken",
+        "label": "Chicken"
+      }
+    ]
+  },
+  {
+    "id": "Service",
+    "label": "Service",
+    "type": "radio",
+    "field": "service",
+    "options": [
+      {
+        "type": "text",
+        "value": "Delivery",
+        "label": "Delivery"
+      },
+      {
+        "type": "text",
+        "value": "Carryout",
+        "label": "Carryout"
+      }
+    ]
+  },
+  {
+    "id": "Veggies",
+    "label": "Veggies",
+    "field": "veggies",
+    "type": "checkbox",
+    "options": [
+      {
+        "type": "text",
+        "label": "Artichokes",
+        "value": "veggies.Artichokes"
+      },
+      {
+        "type": "text",
+        "label": "Arugula",
+        "value": "veggies.Arugula"
+      },
+      {
+        "type": "text",
+        "label": "Basil",
+        "value": "veggies.Basil"
+      },
+      {
+        "type": "text",
+        "label": "Black-Olives",
+        "value": "veggies.Black-Olives"
+      },
+      {
+        "type": "text",
+        "label": "Jalapenos",
+        "value": "veggies.Jalapenos"
+      },
+      {
+        "type": "text",
+        "label": "Mushrooms",
+        "value": "veggies.Mushrooms"
+      },
+      {
+        "type": "text",
+        "label": "Onions",
+        "value": "veggies.Onions"
+      },
+      {
+        "type": "text",
+        "label": "Pineapple",
+        "value": "veggies.Pineapple"
+      },
+      {
+        "type": "text",
+        "label": "Spinach",
+        "value": "veggies.Spinach"
+      },
+      {
+        "type": "text",
+        "label": "Romaine",
+        "value": "veggies.Romaine"
+      }
+    ]
+  },  
+  {
+    "id": "Name",
+    "field": "name",
+    "label": "PizaName",
+    "type": "input"
+  },
+  {
+    "id": "Review",
+    "field": "review",
+    "label": "Review",
+    "type": "text"
+  },
+  {
+    "id": "Submit",
+    "field": "submit",
+    "label": "Submit",
+    "type": "text"
+  }
+]
